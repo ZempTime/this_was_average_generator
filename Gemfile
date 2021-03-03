@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '6.0.3.5'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.8'
 
 #Twitter Bootstrap 3
 gem 'anjlab-bootstrap-rails', require: 'bootstrap-rails', github: 'anjlab/bootstrap-rails', branch: '3.0.0'
@@ -13,16 +13,16 @@ gem 'anjlab-bootstrap-rails', require: 'bootstrap-rails', github: 'anjlab/bootst
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.2.2'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+gem 'turbolinks', '>= 2.2.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -46,7 +46,7 @@ end
 
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid', ref: 'f91feef0a0c6b83a1b878e154f1014536aa1c298'
 gem 'bson_ext'
-gem "font-awesome-rails"
+gem "font-awesome-rails", ">= 4.7.0.5"
 
 group :development do
   gem "better_errors"
