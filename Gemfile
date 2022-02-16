@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.3.5'
+gem 'rails', '5.2.6.2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.8'
+gem 'sass-rails', '~> 5.0.5'
 
 #Twitter Bootstrap 3
 gem 'anjlab-bootstrap-rails', require: 'bootstrap-rails', github: 'anjlab/bootstrap-rails', branch: '3.0.0'
@@ -46,7 +46,7 @@ end
 
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid', ref: 'f91feef0a0c6b83a1b878e154f1014536aa1c298'
 gem 'bson_ext'
-gem "font-awesome-rails", ">= 4.7.0.5"
+gem "font-awesome-rails", ">= 4.7.0.4"
 
 group :development do
   gem "better_errors"
