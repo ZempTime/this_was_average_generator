@@ -45,7 +45,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid', ref: 'f91feef0a0c6b83a1b878e154f1014536aa1c298'
-gem 'bson_ext'
+gem 'bson_ext', '>= 1.12.0'
 gem "font-awesome-rails", ">= 4.7.0.5"
 
 group :development do
