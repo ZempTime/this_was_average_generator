@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.3.5'
+gem 'rails', '6.1.7.3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.8'
@@ -25,7 +25,7 @@ gem 'jquery-rails', '>= 4.0.1'
 gem 'turbolinks', '>= 2.2.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '~> 1.5', '>= 1.5.3'
 
 group :doc do
   # bundle gemsexec rake doc:rails generates the API under doc/api.
@@ -46,7 +46,7 @@ end
 
 gem 'mongoid', '~> 4', github: 'mongoid/mongoid', ref: 'f91feef0a0c6b83a1b878e154f1014536aa1c298'
 gem 'bson_ext'
-gem "font-awesome-rails", ">= 4.7.0.5"
+gem "font-awesome-rails", ">= 4.7.0.6"
 
 group :development do
   gem "better_errors"
